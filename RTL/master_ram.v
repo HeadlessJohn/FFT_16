@@ -26,22 +26,7 @@ module master_ram(
 
   always @ (negedge clk) begin
     if (we)
-      mem[0] <= mem[1];
-      mem[1] <= mem[2];
-      mem[2] <= mem[3];
-      mem[3] <= mem[4];
-      mem[4] <= mem[5];
-      mem[5] <= mem[6];
-      mem[6] <= mem[7];
-      mem[7] <= mem[8];
-      mem[8] <= mem[9];
-      mem[9] <= mem[10];
-      mem[10] <= mem[11];
-      mem[11] <= mem[12];
-      mem[12] <= mem[13];
-      mem[13] <= mem[14];
-      mem[14] <= mem[15];
-      mem[15] <= data;
+      mem[addr] <= data;
   end
 
   always @ (posedge clk) begin

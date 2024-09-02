@@ -105,17 +105,6 @@ module FFT_16 (
     wire signed [15:0] out14_r;
     wire signed [15:0] out15_r;
 
-    wire clk_quater, clk_half, clk_1x;
-
-    clock_div clock_div_inst (
-        .clk(clk),
-        .rst(rst),
-        .clk_out(clk_1x),
-        .clk_half(clk_half),
-        .clk_quater(clk_quater)
-    );
-
-
     pipeline_stage pipe(
         .clk(clk),
         .rst(rst),
