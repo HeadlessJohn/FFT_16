@@ -18,11 +18,14 @@ FFT는 DFT와 같은 결과를 도출하면서 연산의 시간복잡도를 크�
 ### 1.3 사용 부품
 
 - Basys 3
-- STM32-F411 RET6 Nucleo
 
 ## 2. 블록 다이어그램
 
+ ### 2.1 4 stage 파이프라인 구성의 버터플라이 유닛
+
 <img width = "80%" src="https://github.com/HeadlessJohn/FFT_16/blob/main/DOCS/Butterfly_unit.png?raw=true"> 
+
+### 2.2 전체 구조도
 
 <img width = "80%" src="https://github.com/HeadlessJohn/FFT_16/blob/main/DOCS/FFT_Block_diagram.png?raw=true"> 
 
