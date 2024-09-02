@@ -19,3 +19,25 @@ FFT는 DFT와 같은 결과를 도출하면서 연산의 시간복잡도를 크�
 
 - Basys 3
 - STM32-F411 RET6 Nucleo
+
+## 2. 블록 다이어그램
+
+<img width = "80%" src="https://github.com/HeadlessJohn/FFT_16/blob/main/DOCS/Butterfly_unit.png?raw=true"> 
+
+<img width = "80%" src="https://github.com/HeadlessJohn/FFT_16/blob/main/DOCS/FFT_Block_diagram.png?raw=true"> 
+
+## 3. 검증
+
+### 3.1 테스트 벤치, 실제 출력 검증
+
+<img width = "80%" src="https://github.com/HeadlessJohn/FFT_16/blob/main/DOCS/FFT_TB.png?raw=true">
+
+### 3.2 하드웨어 사용량
+
+<img width = "80%" src="https://github.com/HeadlessJohn/FFT_16/blob/main/DOCS/Report.png?raw=true"> 
+
+## 4. 프로젝트 기여자
+
+- 유재훈 (o_ayjh@naver.com)
+
+- 유승범 (ca0602@naver.com)
